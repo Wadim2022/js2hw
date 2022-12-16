@@ -10,7 +10,7 @@ var names2 = prompt("Напишите имя")
 
 do{
   if(blacklist.includes(names2)){
-    names2 = prompt ("введите друге имя")
+    names2 = prompt ("Введите другое имя")
   } else {
     alert(`Добро пожаловать ${names2}`)
     break;
